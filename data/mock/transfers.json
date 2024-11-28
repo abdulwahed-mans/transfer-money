@@ -1,0 +1,44 @@
+{
+  "transfers": [
+    {
+      "id": "t_01HKPQ2X5N8M9Y",
+      "transferCode": "TRF7X9K2M4N",
+      "senderId": "u_01HKPQ2X5N8M9A",
+      "receiverId": "u_01HKPQ2X5N8M9B",
+      "amount": 1500.00,
+      "sourceCurrency": "USD",
+      "targetCurrency": "EUR",
+      "exchangeRate": 0.92,
+      "fee": 15.00,
+      "status": "completed",
+      "createdAt": "2024-02-15T10:30:00Z",
+      "completedAt": "2024-02-15T10:35:00Z"
+    },
+    {
+      "id": "t_02HKPQ2X5N8M9Y",
+      "transferCode": "TRF8P2K4M6N",
+      "senderId": "u_02HKPQ2X5N8M9C",
+      "receiverId": "u_02HKPQ2X5N8M9D",
+      "amount": 750.50,
+      "sourceCurrency": "GBP",
+      "targetCurrency": "USD",
+      "exchangeRate": 1.27,
+      "fee": 7.50,
+      "status": "pending",
+      "createdAt": "2024-02-15T11:45:00Z"
+    },
+    {
+      "id": "t_03HKPQ2X5N8M9Y",
+      "transferCode": "TRF9L5N7P2K",
+      "senderId": "u_03HKPQ2X5N8M9E",
+      "receiverId": "u_03HKPQ2X5N8M9F",
+      "amount": 2500.00,
+      "sourceCurrency": "EUR",
+      "targetCurrency": "JPY",
+      "exchangeRate": 162.45,
+      "fee": 25.00,
+      "status": "processing",
+      "createdAt": "2024-02-15T09:15:00Z"
+    }
+  ]
+}

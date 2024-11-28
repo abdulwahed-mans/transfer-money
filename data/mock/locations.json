@@ -1,0 +1,75 @@
+{
+  "locations": [
+    {
+      "id": "loc_01HKPQ2X5N8M9Y",
+      "name": "Downtown Financial Center",
+      "type": "branch",
+      "address": {
+        "street": "100 Wall Street",
+        "city": "New York",
+        "state": "NY",
+        "country": "USA",
+        "postalCode": "10005"
+      },
+      "coordinates": {
+        "latitude": 40.7058,
+        "longitude": -74.0088
+      },
+      "operatingHours": {
+        "monday": { "open": "09:00", "close": "17:00" },
+        "tuesday": { "open": "09:00", "close": "17:00" },
+        "wednesday": { "open": "09:00", "close": "17:00" },
+        "thursday": { "open": "09:00", "close": "17:00" },
+        "friday": { "open": "09:00", "close": "17:00" },
+        "saturday": { "open": "10:00", "close": "14:00" },
+        "sunday": null
+      },
+      "services": [
+        "cash_pickup",
+        "cash_deposit",
+        "wire_transfer",
+        "currency_exchange"
+      ],
+      "contactInfo": {
+        "phone": "+1-212-555-0100",
+        "email": "downtown.ny@example.com"
+      },
+      "status": "active"
+    },
+    {
+      "id": "loc_02HKPQ2X5N8M9Y",
+      "name": "London City Branch",
+      "type": "branch",
+      "address": {
+        "street": "25 Bank Street",
+        "city": "London",
+        "state": "Greater London",
+        "country": "UK",
+        "postalCode": "E14 5JP"
+      },
+      "coordinates": {
+        "latitude": 51.5033,
+        "longitude": -0.0232
+      },
+      "operatingHours": {
+        "monday": { "open": "09:30", "close": "16:30" },
+        "tuesday": { "open": "09:30", "close": "16:30" },
+        "wednesday": { "open": "09:30", "close": "16:30" },
+        "thursday": { "open": "09:30", "close": "16:30" },
+        "friday": { "open": "09:30", "close": "16:30" },
+        "saturday": null,
+        "sunday": null
+      },
+      "services": [
+        "cash_pickup",
+        "wire_transfer",
+        "currency_exchange"
+      ],
+      "contactInfo": {
+        "phone": "+44-20-7123-4567",
+        "email": "london.city@example.com"
+      },
+      "status": "active"
+    }
+  ]
+}

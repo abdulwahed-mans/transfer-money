@@ -1,0 +1,73 @@
+{
+  "users": [
+    {
+      "id": "u_01HKPQ2X5N8M9A",
+      "fullName": "John Smith",
+      "email": "john.smith@example.com",
+      "phone": "+1-555-123-4567",
+      "address": {
+        "street": "123 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "country": "USA",
+        "postalCode": "10001"
+      },
+      "identificationNumber": "P123456789",
+      "documentType": "passport",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "updatedAt": "2024-02-15T12:00:00Z",
+      "verificationStatus": "verified",
+      "transferHistory": {
+        "totalSent": 15000.00,
+        "totalReceived": 5000.00,
+        "lastTransferDate": "2024-02-15T10:30:00Z"
+      }
+    },
+    {
+      "id": "u_02HKPQ2X5N8M9C",
+      "fullName": "Emma Wilson",
+      "email": "emma.wilson@example.com",
+      "phone": "+44-20-7123-4567",
+      "address": {
+        "street": "45 Oxford Street",
+        "city": "London",
+        "state": "Greater London",
+        "country": "UK",
+        "postalCode": "W1D 2DZ"
+      },
+      "identificationNumber": "DL789012345",
+      "documentType": "driverLicense",
+      "createdAt": "2024-01-15T00:00:00Z",
+      "updatedAt": "2024-02-14T15:30:00Z",
+      "verificationStatus": "verified",
+      "transferHistory": {
+        "totalSent": 8500.00,
+        "totalReceived": 12000.00,
+        "lastTransferDate": "2024-02-15T11:45:00Z"
+      }
+    },
+    {
+      "id": "u_03HKPQ2X5N8M9E",
+      "fullName": "Marie Dubois",
+      "email": "marie.dubois@example.com",
+      "phone": "+33-1-23-45-67-89",
+      "address": {
+        "street": "15 Rue de la Paix",
+        "city": "Paris",
+        "state": "Île-de-France",
+        "country": "France",
+        "postalCode": "75002"
+      },
+      "identificationNumber": "ID98765432",
+      "documentType": "nationalId",
+      "createdAt": "2024-02-01T00:00:00Z",
+      "updatedAt": "2024-02-15T09:00:00Z",
+      "verificationStatus": "verified",
+      "transferHistory": {
+        "totalSent": 25000.00,
+        "totalReceived": 18000.00,
+        "lastTransferDate": "2024-02-15T09:15:00Z"
+      }
+    }
+  ]
+}
